@@ -1,0 +1,20 @@
+{
+	"name": "assetpilot",
+	"version": "1.0.0",
+	"description": "Granular control over WordPress frontend assets",
+	"author": "Amr Abdelkarem (https://amrabdelkarem.com)",
+	"license": "GPL-2.0-or-later",
+	"scripts": {
+		"build": "wp-scripts build assets/src/admin/admin.js assets/src/editor/editor.js --output-path=assets/build",
+		"start": "wp-scripts start assets/src/admin/admin.js assets/src/editor/editor.js --output-path=assets/build",
+		"lint:js": "wp-scripts lint-js assets/src",
+		"format": "wp-scripts format assets/src"
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^30.0.0"
+	},
+	"dependencies": {
+		"@xyflow/react": "^12.10.2",
+		"react-select": "^5.10.2"
+	}
+}

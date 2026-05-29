@@ -1,0 +1,27 @@
+{
+	"name": "amrabdelkarem/assetpilot",
+	"description": "Granular control over WordPress frontend assets.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"authors": [
+		{
+			"name": "Amr Abdelkarem",
+			"homepage": "https://amrabdelkarem.com"
+		}
+	],
+	"require": {
+		"php": ">=8.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"AssetControl\\": "includes/"
+		}
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"sort-packages": true
+	},
+	"scripts": {
+		"phpcs": "phpcs --standard=WordPress includes/"
+	}
+}

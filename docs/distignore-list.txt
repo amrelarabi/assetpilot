@@ -1,0 +1,12 @@
+# Copy to .distignore when building a WordPress.org release zip.
+.git
+.gitignore
+.github
+*.zip
+docs/
+tests/
+node_modules/
+package-lock.json
+composer.json
+composer.lock
+webpack.config.js
