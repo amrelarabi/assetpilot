@@ -43,7 +43,7 @@ After repeated frontend fatal errors, runtime rules pause automatically for 30 m
 
 == Development ==
 
-**Source repository:** https://github.com/amrelarabi/assetspilot
+**Source repository:** https://github.com/amrelarabi/assetpilot
 
 Human-readable source for the admin and block editor UI lives in `assets/src/`. Compiled bundles in `assets/build/` are generated with [@wordpress/scripts](https://www.npmjs.com/package/@wordpress/scripts).
 
